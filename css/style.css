@@ -4,16 +4,20 @@
     box-sizing: border-box;
 }
 
+.row {
+    margin-bottom: 3px;
+}
 
 .item {
-    background-color: blue;
-    border: 1px solid black;
-    width: 95px;
-    height: 50px;
+    background-color: rgb(18, 91, 187);
+    
     text-align: center;
     line-height: 50px;
     vertical-align: middle;
     color: white;
-    margin-right: 2px;
 }
 
+.nested {
+    background-color: green;
+    align-self: center;
+}    
