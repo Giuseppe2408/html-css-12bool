@@ -4,13 +4,9 @@
     box-sizing: border-box;
 }
 
-.row {
-    margin-bottom: 3px;
-}
-
 .item {
-    background-color: rgb(18, 91, 187);
-    
+    background-color: rgb(18, 91, 187);  
+    border: 1px solid white;
     text-align: center;
     line-height: 50px;
     vertical-align: middle;
@@ -21,3 +17,11 @@
     background-color: green;
     align-self: center;
 }    
+
+#padding-top {
+    padding-top: 100px;
+}
+
+.height {
+    height: 50px;
+}
